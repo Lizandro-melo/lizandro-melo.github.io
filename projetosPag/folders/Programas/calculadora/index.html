@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <title>Calculadora</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <button class="b-back" onclick="back()">Voltar</button>
+  <div class="base-cal">
+    <div class="calculadora">
+      <div class="tela">
+        <input class="display" id="display" type="text" />
+      </div>
+      <div class="div-teclas">
+        <input class="tecla" type="button" value="1" />
+        <input class="tecla" type="button" value="2" />
+        <input class="tecla" type="button" value="3" />
+        <input class="tecla" type="button" value="+" />
+        <input class="tecla" type="button" value="4" />
+        <input class="tecla" type="button" value="5" />
+        <input class="tecla" type="button" value="6" />
+        <input class="tecla" type="button" value="-" />
+        <input class="tecla" type="button" value="7" />
+        <input class="tecla" type="button" value="8" />
+        <input class="tecla" type="button" value="9" />
+        <input class="tecla" type="button" value="*" />
+        <input id="media" class="teclaM" type="button" value="1/2" />
+        <input class="tecla" type="button" value="0" />
+        <input class="teclaC" id="clear" type="button" value="CE" />
+
+        <input class="tecla" type="button" value="/" />
+
+        <input class="b-result" id="resultado" type="button" value="=" onclick="igual()" />
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

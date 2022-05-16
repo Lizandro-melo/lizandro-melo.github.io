@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Glegoo&display=swap');
+
+
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  text-decoration: none;
+}
+
+html > body {
+  font-family: 'Glegoo', serif;
+  height: 100vh;
+  width: 100%;
+  font-size: 100%;
+  background-image: url(./img/fundo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  backdrop-filter: blur(4px);
+}
+
+.b-back {
+  width: 100px;
+  height: 40px;
+  border-radius: 25px;
+  position: fixed;
+  left: 0;
+  margin-left: 10px;
+  border: 1px solid black;
+}
+
+
+.cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cabecalho {
+  background-color: rgb(204, 204, 204);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-header{
+  color: black;
+  margin: 10px;
+}
+
+.logo {
+  width: 80px;
+  height: 80px;
+}
+
+.section-login{
+  background-color: rgb(204, 204, 204);
+  height: 320px;
+  width: 400px;
+  margin-top: 8%;
+  border-radius: 20px;
+}
+
+.aba{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(68, 68, 68);
+  border-radius: 20px 20px 0 0;
+  padding: 5px;
+}
+
+.img-aba{
+  height: 27px;
+  filter: invert(90%);
+}
+
+.form-login{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20% 0 60px 0;
+}
+
+
+.input-text{
+  border: 1px solid;
+}
+
+.text-form{
+  font-size: small;
+}
+
+.redefit-form{
+  font-size: x-small;
+}
+
+.rodape{
+  flex: none;
+  height: 60px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.b-nav-r{
+  border-radius: 0 20px 0 20px;
+  width: 100%;
+}
+
+.b-nav-l{
+
+  border-radius: 20px 0 20px 0;
+  width: 100%;
+}

@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-align: none;
+}
+
+body {
+    font-size: 100%;
+    background-color: rgb(224, 229, 235);
+}
+
+.b-back {
+    width: 100px;
+    height: 80px;
+    border-radius: 25px;
+    margin: 30px;
+    border: 1px solid;
+}
+
+.base-cal {
+    display: flex;
+    justify-content: center;
+}
+
+.calculadora {
+    background-color: rgb(127, 209, 209);
+    height: 440px;
+    width: 310px;
+    box-shadow: 0 0 1em;
+    border-radius: 15px;
+}
+
+.tela {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.display {
+    height: 45px;
+    width: 100%;
+    border-radius: 10px;
+    text-align: right;
+    font-size: 40px;
+}
+
+.div-teclas {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    flex-wrap: wrap;
+}
+
+.tecla {
+    margin: 1px;
+    border-radius: 20px;
+    width: 70px;
+    height: 70px;
+}
+
+.teclaC {
+    margin: 1px;
+    border-radius: 20px;
+    width: 70px;
+    height: 70px;
+}
+
+.teclaM {
+    margin: 1px;
+    border-radius: 20px;
+    width: 70px;
+    height: 70px;
+}
+
+.b-result {
+    height: 70px;
+    width: 288px;
+    margin-top: 1px;
+    border-radius: 20px;
+}

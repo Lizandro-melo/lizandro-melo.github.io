@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+ body {
+  font-family: "Raleway", sans-serif;
+  font-size: 100%;
+
+  width: 100%;
+  height: 100%;
+  background-color: rgb(146, 146, 247);
+}
+
+.conteiner {
+  background-color: rgb(175, 210, 219);
+  margin-left: 5%;
+  margin-right: 5%;
+  height: 100%;
+}
+
+.cabecalho>.principal {
+  background-color: rgb(228, 240, 250);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 50px 50px 0 0;
+  justify-content: space-between;
+  height: 100px;
+}
+
+.cont-img {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.cabe-img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+}
+
+.cabe-titu {
+  font-size: 25px;
+  margin: 5px;
+  color: black;
+}
+
+
+.principal {
+  display: flex;
+  align-items: center;
+  color: black;
+}
+
+#mais {
+  height: 55px;
+  display: block;
+  margin-right: 50px;
+  z-index: 2;
+}
+
+#mobal {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(228, 240, 250);
+  border-radius: 30px;
+  height: 30%;
+  width: 130px;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  right: 0;
+  border: 2px solid;
+  top: -100%;
+  position: fixed;
+  margin-right: 24vmin;
+  transition: 350ms;
+}
+
+.menu-mobal {
+  margin-top: 15px;
+  color: black;
+}
+
+
+
+.titulo {
+  background-color: rgb(100, 126, 175);
+  text-align: center;
+}
+
+.sec-titu {
+  padding: 10px;
+}
+
+.sec-projetos {
+  padding-top: 15px;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-bottom: 25px;
+}
+
+.folders {
+  display: flex;
+  flex-direction: column;
+}
+
+.folder {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 0.5px solid black;
+  border-radius: 7px;
+  padding: 5px;
+  margin: 18px 0 0 0;
+  align-items: center;
+}
+
+.back-folder {
+  display: flex;
+  margin: 0 0 0 10px;
+}
+
+.tree-point {
+  font-size: 33px;
+  text-decoration: none;
+  color: black;
+  margin: 0 1px 0 0;
+}
+
+.img-folder {
+  height: 37px;
+}
+
+.colec {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 15px 0 0 0;
+}
+
+.projetos {
+  margin: 7px;
+
+
+}
+
+.img-projeto {
+  height: 170px;
+  width: 280px;
+}
+
+.title-projeto {
+  color: black;
+}

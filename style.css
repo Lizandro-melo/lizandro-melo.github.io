@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 100%;
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(146, 146, 247);
+}
+
+.conteiner {
+  background-color: rgb(175, 210, 219);
+  margin-left: 5%;
+  margin-right: 5%;
+  
+}
+
+.cabecalho>.principal{
+  background-color: rgb(228, 240, 250);
+  display: flex;
+  align-items: center;
+  border-radius: 50px 50px 0 0;
+  justify-content: space-between;
+  height: 100px;
+}
+
+.principal {
+  display: flex;
+  align-items: center;
+  color: black;
+}
+
+#mais{
+  height: 55px;
+  display: block;
+  margin-right: 50px;
+  z-index: 2;
+}
+
+#mobal{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(228, 240, 250);
+  border-radius: 30px;
+  height: 30%;
+  width: 130px;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  right: 0;
+  border: 2px solid;
+  top: -100%;
+  position: fixed;
+  margin-right: 24vmin;
+  transition: 350ms;
+}
+
+
+.menu-mobal{
+  margin-top: 15px;
+  color: black;
+}
+
+.cabe-titu {
+  font-size: 25px;
+  margin: 45px;
+  color: black;
+}
+
+.titulo {
+  background-color: rgb(100, 126, 175);
+  text-align: center;
+}
+
+.sec-titu {
+  padding: 10px;
+}
+
+.sec-sobre {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sobreMim {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+  background-color: rgb(100, 126, 175);
+  border-radius: 20px;
+  height: 100%;
+}
+
+.img-sobre {
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  margin: 10px;
+}
+
+.text-sobre {
+  font-weight: 600;
+  font-size: 100%;
+  margin: 5px;
+}
+
+.divisao {
+  height: 2px;
+  box-shadow: 0 0 5px;
+  background-color: black;
+  width: 78%;
+}
+
+.objetivos {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(100, 126, 175);
+  height: 150%;
+  border-radius: 20px;
+  margin: 30px;
+}
+
+.para-obj {
+  font-weight: 600;
+  font-size: 100%;
+  margin: 10px;
+}
+
+.sociais {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  background-color: rgb(100, 126, 175);
+  width: 90%;
+  height: 150px;
+  border-radius: 20px;
+  margin: 30px;
+}
+
+.icon-social {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.titulo-social {
+  font-weight: 600;
+}
+
+.icon-social {
+  display: flex;
+  flex-direction: row;
+}
+
+.svg{
+  height: 38px;
+}
+
+.nome-svg {
+  color: black;
+  font-weight: 600;
+}
+
+.svg-in {
+  height: 38px;
+}
+
+
